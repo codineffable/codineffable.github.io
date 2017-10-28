@@ -1,9 +1,7 @@
 
 
-
   function sendLetter()
   {
-
     jQuery(document).ready(function()
     {
       $("#submit-form").addClass("sent");
@@ -33,6 +31,18 @@
 
 jQuery(document).ready(function()
 {
+  var language = $("#lang > div > select option:selected" ).val();
+
+  $("body").on("change","#lang > div > select", function(e)
+  {
+    
+    if($("#lang > div > select option:selected" ).val()!=language)
+    {
+      window.location.href = "/"+$("#lang > div > select option:selected" ).val() +'/';
+    }
+  
+
+  })
 
  $(".close-inf").on("click",function(e){
     $("#codnef-team-img").removeClass("mariaS");

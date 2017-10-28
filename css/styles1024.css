@@ -691,13 +691,7 @@ color2
 
 /*computer*/
 
-#computer-sect
-{
-        width: 100%;
-        margin-bottom: 0px;
-        margin-left: 0px;
 
-}
 
 #pc
 {
@@ -1164,7 +1158,7 @@ background-color: #cccccc;
 #sect2-pt2-desc
 {
         display: flex;
-        flex-direction: row; 
+        flex-direction: column; 
         z-index: 2;
             padding-left: 4em;
             margin-bottom: 4em;
@@ -1511,7 +1505,7 @@ background-color: #cccccc;
 }
 #sect2-pt1
 {
-        background-color: #637b9e;
+        background-color: #5b7090;
 }
 #sect2-pt2
 {
@@ -2848,7 +2842,7 @@ left: 100px;
 {
     width: 100%;
     height: 100%;
-    background-color: rgba(99,123,158,0.8);
+    background-color: rgba(91,112,144,0.8);
     position: absolute; border-top-right-radius: 10px;
         border-top-left-radius: 10px;
         border-bottom-right-radius: 10px;
@@ -3132,4 +3126,89 @@ transition: all .5s ease-in;
     background-color: silver;
     position: absolute;
     transform: rotate(-135deg);
+}
+
+.contentTextWhite
+{
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 300;
+    color:white !important;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.contentTextBlack
+{
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 300;
+    color:#626262 !important;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+
+.servicesList > li
+{
+    font-family: 'Roboto Condensed', sans-serif; 
+    font-weight: 300;
+    color:white !important;
+    font-size: 20px;
+    line-height: 35px;
+}
+.servicesList 
+{
+    background-color: rgba(0,0,0,0.1);
+    padding: 1em;
+}
+
+.servicesListB > li
+{
+    font-family: 'Roboto Condensed', sans-serif; 
+    font-weight: 300;
+    color:white !important;
+    font-size: 20px;
+    line-height: 35px;
+
+}
+.servicesListB 
+{
+    background-color: rgba(0,0,0,0.7);
+    padding: 1em;
+}
+
+.servicesListB > li > span
+{
+    margin-right: 10px;
+}
+
+.sect1-class
+{
+    z-index: 2;
+    background-color: #2C3E50;
+    max-height: 800px;
+    min-height: 645px;
+    height: 100vh;
+}
+#particles-js
+{
+        z-index: 2;
+    background-color: #2C3E50;
+    max-height: 800px;
+    min-height: 645px;
+    height: 100vh;
+}
+#particles-js > canvas
+{
+        position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    z-index: 1;
+
+}#computer-sect
+{
+        width: 100%;
+        margin-bottom: 0px;
+        margin-left: 0px;
+z-index: 2;
 }
