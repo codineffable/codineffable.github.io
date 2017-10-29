@@ -5,20 +5,14 @@
     jQuery(document).ready(function()
     {
       $("#submit-form").addClass("sent");
-      $("#submit-form").val("Sent!");
+      $("#submit-form").val("Error ocurred! Use another way for contact us please");
       $("#submit-form").attr("disabled");
     });
   var url='';
-  $.ajax(
-  {
-    type:'POST',
-    url:url,
-    data:$('#send-form').serialize(),
-    success: function(response)
-    {
-      return false;
-    }
-  });
+  var data = $('#send-form').serialize();
+
+
+ 
   
   return false;
   }

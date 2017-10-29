@@ -3013,10 +3013,10 @@ transition: all .5s ease-in;
     width: 55%;
     height: 70vh;
     background-color: white;
-    background-image: url(../img/ai.png);
+   /* background-image: url(../img/ai.png);
     background-repeat: no-repeat;
     background-position: right bottom;
-    background-size: auto 80%;
+    background-size: auto 80%;*/
     position: absolute;
     right: 0px;
     margin-top: 0px;
@@ -3059,10 +3059,10 @@ transition: all .5s ease-in;
     width: 55%;
     height: 70vh;
     background-color: white;
-    background-image: url(../img/flat_terminal.png);
+   /* background-image: url(../img/flat_terminal.png);
     background-repeat: no-repeat;
     background-position: left bottom;
-    background-size: auto 50%;
+    background-size: auto 50%;*/
     position: absolute;
     left:0px;
     margin-top: 0px;
@@ -3211,4 +3211,89 @@ transition: all .5s ease-in;
         margin-bottom: 0px;
         margin-left: 0px;
 z-index: 2;
+}
+
+.nameandtitle > h2
+{
+    line-height: 1.2em;
+    padding-left: 1em;
+}
+
+#sect-title
+{
+    font-size: 2.5em !important;
+}
+
+.profileImg > div:nth-child(1)
+{
+    margin-top: 1em;
+    width: 50%; 
+}
+
+.profileImg
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.profileImg > .softImg
+{
+    overflow: hidden;
+    width: 50%;
+}
+
+.ctandlinks
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.ctandlinks > div > span
+
+{
+    color: #5d99ce;
+    font-size: 3em;
+    cursor: pointer;
+}
+.ctandlinks > div > span:hover
+{
+    color: #4e80ac;
+    transform: scale(1.5);
+}
+.ctandlinks > div
+{
+    padding-top: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.ctandlinks > div > span
+{
+    margin-left: .2em;
+    margin-right: .2em;
+}
+
+#mariaPrev > div.profileImg > div.ctandlinks
+{
+    width: 50%;
+}
+
+#mariaPrev > div.profileImg > div.ctandlinks
+{
+        padding-left: .5em;
+}
+
+#mariaPrev > div.profileImg > div.softImg
+{
+    margin-left: -30px;
+}
+
+#mariaPrev > div.profileImg > div.ctandlinks > p
+{
+    padding-top: 1em;
+}
+
+#mariaPrev > div.team-ppl-name.white-back2
+{
+    padding-top: 1em;
 }
