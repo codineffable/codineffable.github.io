@@ -23,23 +23,26 @@ function check_element(ele)
     document.getElementById("progress_width").value=prog_width;
 
     $("#bar1").animate({width:prog_width+"%"},3,function(){
-      var per=($("#bar1").width()/ $('#bar1').parent().width() * 100)-1;
+      var per=($("#bar1").width()/ $('#bar1').parent().width() * 100);
       var per2 = per.toString();
 
-         var per3 = per2.substr(0,2);
+        
+        var per3= per2.substr(0, per2.indexOf('.')); 
+      
+      
       
       $("#percentaje").text(per3+"%");
       if(document.getElementById("bar1").style.width=="100%")
       {
 
-       /* $(".progress").fadeOut("slow");
+        $(".progress").fadeOut("slow");
 
         $(".loading").each(function(){ 
           $(this).removeClass("loading");
         });
          setTimeout(function(){
         $(".progress").css("display","none");
-      }, 1000);*/
+      }, 1000);
       }     
     });
   }

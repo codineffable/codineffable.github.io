@@ -3353,14 +3353,14 @@ z-index: 2;
     width: 100%;
     height: 100%;
     z-index: 9999;
-    background-color: #F2F2F2;
- background-color: #535353;
+    background-color: #161616;
      flex-direction: column;
 }
 .bar 
 { 
+        background-color: #5b7090;
     position: absolute;
-    background-color: #819FF7;
+    background-color: #5b7090;
     width: 0%;
     height: 100%;
     /* border-radius: 3px; */
@@ -3376,7 +3376,7 @@ z-index: 2;
     display: flex;
     align-items: center;
     position: absolute;
-    border:2px solid #819FF7;
+    border:2px solid #5b7090;
 
 }
 
@@ -3509,7 +3509,7 @@ z-index: 2;
     display: flex;
     flex-direction: row;
     align-items: center;
-    background-color: #555353;
+
 }
 
 #logoLoading > div{
@@ -3527,6 +3527,6 @@ height: 100px;
     display: flex;
     flex-direction: row;
     align-items: center;
-    background-color: #555353;
+
 
     }
