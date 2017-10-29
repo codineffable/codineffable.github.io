@@ -21,10 +21,25 @@ function check_element(ele)
   {
     var prog_width=per_inc+Number(document.getElementById("progress_width").value);
     document.getElementById("progress_width").value=prog_width;
+
     $("#bar1").animate({width:prog_width+"%"},3,function(){
+      var per=($("#bar1").width()/ $('#bar1').parent().width() * 100)-1;
+      var per2 = per.toString();
+
+         var per3 = per2.substr(0,2);
+      
+      $("#percentaje").text(per3+"%");
       if(document.getElementById("bar1").style.width=="100%")
       {
-        $(".progress").fadeOut("slow");
+
+       /* $(".progress").fadeOut("slow");
+
+        $(".loading").each(function(){ 
+          $(this).removeClass("loading");
+        });
+         setTimeout(function(){
+        $(".progress").css("display","none");
+      }, 1000);*/
       }     
     });
   }
@@ -78,6 +93,7 @@ function set_ele(set_element)
 
 jQuery(document).ready(function()
 {
+  $(".logo-copy").clone().appendTo("#logoLoading");
   var url      = window.location.href;  
  
 var ur2 = url.substr(url.indexOf("/") + 1)
@@ -513,8 +529,7 @@ else
 
 
 
-
-
+/*
 
 
 $("html").easeScroll(
@@ -532,7 +547,7 @@ $("html").easeScroll(
     touchpadSupport: true,
     fixedBackground: true
   });
-
+*/
 
 $(document).on('click', 'a', function(event){
     event.preventDefault();
