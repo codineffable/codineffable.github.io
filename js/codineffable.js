@@ -24,7 +24,7 @@ function check_element(ele)
     $("#bar1").animate({width:prog_width+"%"},3,function(){
       if(document.getElementById("bar1").style.width=="100%")
       {
-        //$(".progress").fadeOut("slow");
+        $(".progress").fadeOut("slow");
       }     
     });
   }
