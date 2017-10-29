@@ -133,6 +133,7 @@ color4
         width: 100%;
         display: flex;
         flex-direction: column;
+            margin-top: 1.5em;
 }
 /*LOGO*/
 #logo-container
@@ -3296,4 +3297,14 @@ z-index: 2;
 #mariaPrev > div.team-ppl-name.white-back2
 {
     padding-top: 1em;
+}
+
+#anthonyPrev > div.team-ppl-name.white-back2
+{
+    padding-top: 1em;
+}
+
+#sect3-desc > h2
+{
+    text-align: center;
 }

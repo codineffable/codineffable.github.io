@@ -25,6 +25,13 @@
 
 jQuery(document).ready(function()
 {
+  var url      = window.location.href;  
+ 
+var ur2 = url.substr(url.indexOf("/") + 1)
+var ur3 = ur2.substr(ur2.indexOf("/") + 1)
+var ur4 = ur3.substr(ur3.indexOf("/") + 1)
+var ur5 = ur4.substr(0,2);
+ console.log(ur5);
   var language = $("#lang > div > select option:selected" ).val();
 
   $("body").on("change","#lang > div > select", function(e)
@@ -269,6 +276,13 @@ if($(".project-list").width()<=$(window).width())
     var serverEr = $("#server-unity"+number2);
     serverEr.addClass("error");
   }
+
+
+
+
+
+  //---------------------------------------------------------------------Console Start
+
   var svEr = 0;
   $.each($(".server-unity"), function() 
           {
@@ -281,7 +295,15 @@ if($(".project-list").width()<=$(window).width())
 
 if(svEr==1)
 {
-$("#servers-status").html("# &nbsp datacenter status: error<br># &nbsp type --help for more information");
+      if(ur5=="en")
+      {
+        $("#servers-status").html("# &nbsp datacenter status: error<br># &nbsp type --help for more information");
+      }
+      if(ur5=="es")
+      {
+        $("#servers-status").html("# &nbsp estado del datacenter: error<br># &nbsp escribe --help para mayor informacion");
+      }
+
 }
 else
 {
@@ -418,6 +440,28 @@ else
       msg1S = 1;
     }
   })
+
+
+
+
+
+
+
+
+
+
+
+
+//-----------------------------------------------------------------------------------Console End
+
+
+
+
+
+
+
+
+
 
 
 $("html").easeScroll(
