@@ -3357,7 +3357,7 @@ z-index: 2;
 .bar 
 { 
     background-color: #819FF7;
- 
+    width: 0%;
     height: 100%;
     /* border-radius: 3px; */
 }
