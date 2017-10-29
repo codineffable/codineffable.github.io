@@ -543,6 +543,7 @@ var $window = $(window);
             $(this).css('background-position-y', ($(window).scrollTop()-$(this).offset().top+$(window).height())*0.3*-1-($(this).height()/9)+"px"   );
 
           }
+
           else
           {
               $element.addClass('in-view');
