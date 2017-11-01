@@ -16,6 +16,8 @@
     display: flex;
     align-items: center;justify-content: center;
 }
+
+
 .hamburger {
     height: 40px;
   position: fixed;
@@ -3510,20 +3512,22 @@ margin-left: 5%;
 
 
 
-
-
-.loading
+.a
 {
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 999;
+    z-index: 100;
+}
+
+.loading
+{
+   
 }
 
 #parallax1.loading
 {
-    width: 100%;
-     background-size: 100% auto;
+    
 }
 
 #loadingContent

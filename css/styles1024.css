@@ -3413,13 +3413,17 @@ z-index: 2;
   transform: translate3d(0px, 0px, 0px);
 }
 
-
-.loading
+.a
 {
     position: fixed;
     top: 0;
     left: 0;
     z-index: 100;
+}
+
+.loading
+{
+   
 }
 
 #parallax1.loading

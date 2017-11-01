@@ -14,7 +14,7 @@
 		<link href="/css/styles-fonts.css" rel="stylesheet" type="text/css" >
 
 
-	<script src="/js/pace.min.js"></script>
+	
 
 
 
@@ -36,10 +36,42 @@
 <meta name="msapplication-TileImage" content="/icon/ms-icon-144x144.png">
 <meta name="theme-color" content="#ffffff">
 
+<script src="/js/pace.min.js"></script>
+<script type="text/javascript">
 
-<script type="text/javascript">Pace.on("done", function() {
+
+window.onload = function(){
+    var buttons = document.getElementsByClassName("loading"),
+        len = buttons != null ? buttons.length : 0,
+        i = 0;
+    for(i; i < len; i++){
+        buttons[i].className += " a"; 
+    }
+};
+
+
+
+	Pace.on("done", function() {
     $('#page_overlay').delay(300).fadeOut(600);
- });</script>
+
+
+
+ var kk = document.getElementsByClassName("loading"),
+        len = kk != null ? kk.length : 0,
+        i = 0;
+    for(i; i < len; i++){
+        kk[i].classList.remove("a");
+    }
+
+
+
+
+ });
+
+
+
+
+</script>
 
 
 

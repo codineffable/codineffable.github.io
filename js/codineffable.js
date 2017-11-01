@@ -5,10 +5,7 @@
 
 
 $(window).bind("load", function() {
-  $(".loading").each(function()
-    { 
-      $(this).removeClass("loading");
-      });
+  
 });
 
 
