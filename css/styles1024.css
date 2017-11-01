@@ -1122,7 +1122,10 @@ background-color: #cccccc;
         
 
 }
-
+#sect5 > div
+{
+    overflow-y: hidden;
+}
 .white-back h1
 {
         color:#626262 !important;

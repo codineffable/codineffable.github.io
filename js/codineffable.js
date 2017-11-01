@@ -602,9 +602,9 @@ $(document).on('click', 'a', function(event){
             }
     if($(this).hasClass("links"))
     {
-    $('html, body').animate({
-        scrollTop: $( $.attr(this, 'href') ).offset().top-headerHeight
-    }, 500);
+      document.location.href=$.attr(this, 'href');
+      var scroll = $(window).scrollTop();
+      $(window).scrollTop(scroll-50);
   }
 });
   /*   var $root = $('html, body');

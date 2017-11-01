@@ -676,7 +676,7 @@ section
 
 .scale-footer
 {
-        transform: scale(0.1);
+        transform: scale(0.2);
         transform-origin: 0;
 }
 footer
@@ -711,6 +711,9 @@ footer
 #fs1-4 > p5
 {
     text-align: center;
+}#sect5 > div
+{
+    overflow-y: hidden;
 }
 #footer-sect1
 {

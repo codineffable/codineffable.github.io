@@ -33,6 +33,9 @@ body
         display: block;
         line-height: 1em;
         background-color: #161b1e;
+}#sect5 > div
+{
+    overflow-y: hidden;
 }
 .overflowWrap
 {
