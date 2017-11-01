@@ -49,15 +49,7 @@
 	</head>
 	<body>
 
-<div class='progress' id="progress_div">
-			<div id="pg">
-			
-    <div id="progresWr"><div id="logoLoading"></div><div class='bar' id='bar1'></div><div id="percentaje"></div></div></div>
-    <div class='percent' id='percent1'></div>
-  </div>
 
-
-  <input type="hidden" id="progress_width" value="0">
 
 		<header>
 		<div id="em"></div>
@@ -115,7 +107,11 @@
 				NEFFABLE</p>
 				<p class="logo-symbol-2">></p>
 				</div></div>
-
+<div class="hamburger hamburger--slider-r">
+    						<div class="hamburger-box">
+      							<div class="hamburger-inner"></div>
+    						</div>
+  						</div>
 				<div id="navigation">
 					<ul id="navigation-items">
 						<li><a href="#sect1" id="link-sect1" class="links">Home</a></li>
@@ -690,7 +686,7 @@
 
 			<section class="inf" id="sect3">
 			
-				<div id="parallax1" class="parallax dynamic preload"><div class="black-blur">
+				<div id="parallax1" class="parallax dynamic preload loading"><div class="black-blur">
 					<div class="content-wrap dynamic slide-up" id="sect3-wrap">
 						<div id="sect3-title"><h1 id="sect-title">We bring ineffable services to you!</h1>
 						</div>
@@ -701,34 +697,35 @@
 				</div>
 				</div>
 				</section>
-			<section class="inf" id="sect4">
+			<section class="inf loading" id="sect4">
 				<div id="sect4-title"><h1 id="sect-title">Check what we did for our custommers!</h1></div>
 				<div id="slider">
 				<!--<div id="parallax1" class="parallax ">-->
-					<div id="prev-button">
-					<a href="#" id="portfolio-prev" class="button"></a>
-					</div>
+					
 						<div class="project-list">
 							<div class="project-thumb" id="thumb-project-1">
 								<div class="project-img"><img src="/img/samim.jpg"></div>
-								<div class="project-name">SAMIM - System Information</div>
+								<div class="project-name">SAMIM - System Information<div class="proj-desc-phone"><p1 class="desc-phone">It is an information system for the administration of the inventory of an institutional pharmacy warehouse, capable of generating reports, digitally managing the quantity of products, and other additional features.</p1></div></div>
 							</div>
 							<div class="project-thumb" id="thumb-project-2">
 								<div class="project-img"><img src="/img/ma.jpg"></div>
-								<div class="project-name">Miguel Ayala - Web Design</div>
+								<div class="project-name">Miguel Ayala - Web Design<div class="proj-desc-phone"><p1 class="desc-phone">Web portal with the purpose of offering the public the literary works of the author Miguel Ayala.</p1></div></div>
 							</div>
 							<div class="project-thumb" id="thumb-project-3">
 								<div class="project-img"><img src="/img/sifcomp.jpg"></div>
-								<div class="project-name">Sifcomp - System Information</div>
+								<div class="project-name">Sifcomp - System Information<div class="proj-desc-phone"><p1 class="desc-phone">System of information destined to the processing of the orders of works of a company dedicated to the maintenance of varied equipment.</p1></div></div>
 							</div>
 						</div> 
+						<div id="spacer"></div>
 					<div id="next-button">
 					<a href="#" id="portfolio-next" class="button"></a></div>
-
+					<div id="prev-button">
+					<a href="#" id="portfolio-prev" class="button"></a>
+					</div>
 					</div>
 
 				<div class="proj-desc-cont">
-					<div class="proj-desc" id="desc-project-1">
+					<div class="proj-desc loading" id="desc-project-1">
 						<div class="project-description-all content-wrap">
 							<div class="project-description-img">
 								<img src="/img/samim.jpg">
@@ -825,9 +822,7 @@
 						<div class="softImg"><img width="100%" src="/img/back.png"></div>
 						<div class="ctandlinks"><p class="contentTextBlack cofounderDesc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						quis nostruccaecat cupidatat non
 						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 							<div><span class="fa-facebook-square fa"></span><span class="fa-linkedin-square fa"></span><span class="fa-twitter-square fa"></span></div>
 						</div>
@@ -842,6 +837,7 @@
 
 
 				<object type="image/svg+xml" data="/img/cod-team2.svg" id="codnef-team-img"></object>
+				<object type="image/svg+xml" data="/img/cod-team2-small.svg" id="codnef-team-img2"></object>
 				</div>
 				
 				
@@ -948,7 +944,7 @@
 	</body>
 	<footer>
 	<div class="content-wrap" id="footer-wrap">
-		<div id="footer-sect1">
+		<div class="loading" id="footer-sect1">
 			
 			<div class="footer-content-div" id="fs1-1">
 			<div><p5>Site Map</p5></div><br>

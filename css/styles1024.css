@@ -1,4 +1,11 @@
-
+#codnef-team-img2
+{
+    display: none;
+}
+.proj-desc-phone
+{
+    display: none;
+}
 * 
 {
         background: none repeat scroll 0 0 transparent;
@@ -418,10 +425,20 @@ div.logo > div > div.window-body > div.content > div.code > div > div:nth-child(
         display: flex;
         position: fixed;
         align-items: center;
-        background-color: #2C3E50;
-        /*  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.08);*/
-
+        background-color: none;
+        transition: all -5s ease;
+           
 }
+
+#desk-navbar.scrolled
+{
+     box-shadow: 0px 0px 2px rgba(0, 0, 0, .2);
+     background-color: #2C3E50;
+     transition: all -5s ease;
+           
+}
+
+
 header .logo
 {
         transform: scale(0.4);
@@ -672,6 +689,7 @@ color2
 }
 #desc1
 {
+    overflow: hidden;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -1920,12 +1938,7 @@ display: flex;
         background-position: top left;
         background-size: 100% auto;
 }
-#parallax1.preload
-{
-    position: fixed;
-    z-index: -1;
-    top: 0;
-}
+
 #codnef-team-img
 {
     width: 100%;
@@ -2184,7 +2197,7 @@ display: flex;
         position: absolute;
         width: 65px;
         left: 0;
-        margin-top: 100px;
+          margin-top: calc(-165px);
          display: flex;
          align-items: center;
 
@@ -3310,57 +3323,6 @@ z-index: 2;
 }
 
 
-
-
-
-
-
-.progress 
-{
-    position: fixed;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* padding-left: 10%; */
-    /* padding-right: 20%; */
-    left: 0px;
-    top: 0px;
-    width: 100%;
-    height: 100%;
-    z-index: 9999;
-    background-color: #161616;
-     flex-direction: column;
-}
-.bar 
-{ 
-    position: absolute;
-    background-color: #5b7090;
-    width: 0%;
-    height: 100%;
-    /* border-radius: 3px; */
-    z-index: 1;
-}
-
-#progresWr
-{ 
-     justify-content: space-between;
-    width: 90%;
-    height: 60px;
-    /* border-radius: 3px; */
-    display: flex;
-    align-items: center;
-    position: absolute;
-    border:2px solid #5b7090;
-
-}
-
-.percent 
-{ 
-  position:absolute; 
-  display:inline-block; 
-  top:3px; 
-  left:48%; 
-}
 
 
 

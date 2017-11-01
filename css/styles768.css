@@ -1,4 +1,11 @@
-
+#codnef-team-img2
+{
+    display: none;
+}
+.proj-desc-phone
+{
+    display: none;
+}
 * 
 {
         background: none repeat scroll 0 0 transparent;
@@ -419,10 +426,20 @@ div.logo > div > div.window-body > div.content > div.code > div > div:nth-child(
         display: flex;
         position: fixed;
         align-items: center;
-        background-color: #2C3E50;
-        /*  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.08);*/
-
+        background-color: none;
+        transition: all -5s ease;
+           
 }
+
+#desk-navbar.scrolled
+{
+     box-shadow: 0px 0px 2px rgba(0, 0, 0, .2);
+     background-color: #2C3E50;
+     transition: all -5s ease;
+           
+}
+
+
 header .logo
 {
         transform: scale(0.3);
@@ -673,6 +690,7 @@ color2
 }
 #desc1
 {
+    overflow: hidden;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -1934,12 +1952,7 @@ display: flex;
         background-position: top left;
         background-size: 100% auto;
 }
-#parallax1.preload
-{
-    position: fixed;
-    z-index: -1;
-    top: 0;
-}
+
 #codnef-team-img
 {
     width: 100%;
@@ -2197,7 +2210,7 @@ display: flex;
         position: absolute;
         width: 65px;
         left: 0;
-        margin-top: 100px;
+          margin-top: calc(-165px);
          display: flex;
          align-items: center;
 
