@@ -3466,7 +3466,7 @@ z-index: 2;
   -ms-transform: translate(0px, 0px);
   transform: translate3d(0px, 0px, 0px);
 }
-
+¨/*
 
 .loading
 {
@@ -3475,7 +3475,7 @@ z-index: 2;
     left: 0;
     z-index: 999;
 }
-
+*/
 #parallax1.loading
 {
     width: 100%;
