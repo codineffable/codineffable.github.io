@@ -620,15 +620,16 @@ $('a').click(function() {
   var browserTopPos=$("#browser-window").offset().top;
 var $window = $(window);
 
-  $(window).on('scroll resize load', function(e){
+  $(window).bind('scroll resize load', function(e){
 
 
-      event.preventDefault();
+     
+
       var window_height = $window.height();
         var window_top_position = $window.scrollTop();
         var window_bottom_position = (window_top_position + window_height);
       var window_top_position = $window.scrollTop();
-
+      
       if(window_top_position>0)
       {
         $("#desk-navbar").addClass("scrolled");
