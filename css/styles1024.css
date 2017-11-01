@@ -56,6 +56,11 @@ font-size: 1.5em;
         line-height: 1em;
 
 }
+.overflowWrap
+{
+position: relative;
+    overflow-x: hidden;
+}
 h2
 {
         font-family: 'Roboto Condensed', sans-serif; 
@@ -1113,6 +1118,7 @@ background-color: #cccccc;
         height: 300px;
         z-index: 0;
          transition: all 0.3s ease;
+         
         
 
 }
@@ -3390,7 +3396,7 @@ z-index: 2;
   transform: translate3d(0px, 0px, 0px);
 }
 
-/*
+
 .loading
 {
     position: fixed;
@@ -3398,7 +3404,7 @@ z-index: 2;
     left: 0;
     z-index: 999;
 }
-*/
+
 #parallax1.loading
 {
     width: 100%;

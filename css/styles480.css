@@ -68,11 +68,15 @@
   .hamburger--slider-r.is-active .hamburger-inner::after {
     transform: translate3d(0, -20px, 0) rotate(90deg); }
 
-
-
+.overflowWrap
+{
+position: relative;
+    overflow-x: hidden;
+}
 
 * 
 {
+    position: relative;
         background: none repeat scroll 0 0 transparent;
         border: medium none;
         border-spacing: 0;
@@ -88,6 +92,7 @@
 
 body 
 {
+    position: relative;
         background-color: white;
         overflow-x: hidden; 
         margin: auto;
@@ -3494,13 +3499,13 @@ margin-left: 5%;
 
 
 
-/*.loading
+.loading
 {
     position: fixed;
     top: 0;
     left: 0;
     z-index: 999;
-}*/
+}
 
 #parallax1.loading
 {

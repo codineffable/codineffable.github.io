@@ -1,3 +1,20 @@
+
+
+
+
+
+
+$(window).bind("load", function() {
+  $(".loading").each(function()
+    { 
+      $(this).removeClass("loading");
+      });
+});
+
+
+
+
+
 function sendLetter()
 {
   jQuery(document).ready(function()
@@ -113,13 +130,11 @@ jQuery(document).ready(function()
   })
 
   //--------------------------------Precargar divs con imagenes de fondo en CSS
-  $(window).on('load', function(e)
-  {
-    $(".loading").each(function()
-    { 
-      $(this).removeClass("loading");
-      });
-  });
+
+
+
+
+
 
 
   //--------------------------------Precargar divs con imagenes de fondo en CSS
@@ -625,6 +640,7 @@ var $window = $(window);
 
      $.each($(".dynamic"), function() 
         {
+
           var $element = $(this);
           var element_height = $element.outerHeight();
           var element_top_position = $element.offset().top;
@@ -662,6 +678,7 @@ var $window = $(window);
 
           else
           {
+             
               $element.addClass('in-view');
             }
           } 

@@ -34,7 +34,11 @@ body
         line-height: 1em;
         background-color: #161b1e;
 }
-
+.overflowWrap
+{
+position: relative;
+    overflow-x: hidden;
+}
 h1
 {
         font-family: 'Roboto', sans-serif;   
@@ -3466,7 +3470,7 @@ z-index: 2;
   -ms-transform: translate(0px, 0px);
   transform: translate3d(0px, 0px, 0px);
 }
-¨/*
+
 
 .loading
 {
@@ -3475,7 +3479,7 @@ z-index: 2;
     left: 0;
     z-index: 999;
 }
-*/
+
 #parallax1.loading
 {
     width: 100%;
