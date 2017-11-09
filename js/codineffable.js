@@ -82,7 +82,7 @@ newReq.set(
       $("#submit-form").val("Enviado! Lo chequearemos pronto!");
     }
     
-    $("#submit-form").attr("disabled");
+    $(":submit").attr("disabled", true);
     $("#submit-form").addClass("sent");
   }
     return false;
