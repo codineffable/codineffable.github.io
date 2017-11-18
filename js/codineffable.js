@@ -1,9 +1,6 @@
 
 
 
-
-
-
 $(window).bind("load", function() {
   
 });
